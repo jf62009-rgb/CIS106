@@ -1,1 +1,29 @@
-
+>>> print(exoneweight + extwoweight)
+1.0
+>>> exonescore = 95
+>>> extwoscore = 87
+>>> print( exoneweight * exonescore) + (extwoweight * extwoscore) /2
+57.0
+Traceback (most recent call last):
+  File "<python-input-7>", line 1, in <module>
+    print( exoneweight * exonescore) + (extwoweight * extwoscore) /2
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'float'
+>>>  print( exoneweight * exonescore) + (extwoweight * extwoscore) / 2
+  File "<python-input-8>", line 1
+    print( exoneweight * exonescore) + (extwoweight * extwoscore) / 2
+IndentationError: unexpected indent
+>>>  print( exoneweight * exonescore) + (extwoweight * extwoscore)
+  File "<python-input-9>", line 1
+    print( exoneweight * exonescore) + (extwoweight * extwoscore)
+IndentationError: unexpected indent
+>>>  print( exoneweight * exonescore) + (extwoweight * extwoscore)
+  File "<python-input-10>", line 1
+    print( exoneweight * exonescore) + (extwoweight * extwoscore)
+IndentationError: unexpected indent
+>>> print( exoneweight* exonescore)
+57.0
+>>> print( extwoweight* extwoscore)
+34.800000000000004
+>>> print( 57.0+ 34.8)
+91.8
